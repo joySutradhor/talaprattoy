@@ -1,0 +1,87 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* commmon styles here */
+    .sectionGap {
+        @apply pt-[60px] px-[32px]
+    }
+
+
+    .headingTagBold {
+        @apply text-[35px] leading-[35px] pb-[15px]
+        /* ========== */
+        text-[#EFEFEF] font-Josefin font-bold
+    }
+
+    .headingTagNormal {
+        @apply text-[35px] leading-[35px]
+        /* ========== */
+        text-[#EFEFEF] font-Josefin font-normal
+    }
+
+    .cardSubHeading {
+        @apply text-[24px] leading-[24px] pb-[15px]
+        /* ========= */
+        font-Josefin font-bold text-[#FF0000]
+    }
+
+    .paraText {
+        @apply text-[12px] leading-[18px]
+        /* ======= */
+        text-[#fff] font-Josefin font-normal
+    }
+
+    .commonBtn {
+        @apply text-[15px] leading-[15px] py-[11px] px-[13px] rounded-[5px]
+        /* ========= */
+        font-Josefin font-bold bg-white text-[#FF0000]
+    }
+
+    /* ================ common styles end =========== */
+    /* ================ home first slider start  =========== */
+
+    .discoverSliderParent {
+        @apply h-[255px] w-full mt-[25px]
+        /* ======== */
+        bg-slate-400
+    }
+
+    .acivementParent {
+        @apply py-[35px] px-[32px]
+    }
+
+    /* ================ home first slider end  =========== */
+
+    /* ================ achiveMent content start  =========== */
+
+    .achivementContentParent {
+        @apply grid grid-cols-2 gap-x-[50px] gap-y-[25px]
+    }
+
+    .achivementContentTile {
+        @apply text-[24px] leading-[41px] pb-[5px]
+        /* ======== */
+        font-Josefin font-bold text-[#FF0000]
+    }
+
+    /* ================ achiveMent content end  =========== */
+    /* ================ objective styles start  =========== */
+    .featuresContentParent{
+        @apply  pl-[15px] pb-[15px]
+        /* ========= */
+        flex  h-full items-end 
+    }
+
+    /* =============== award styles here ========== */
+    .awardSliderParent{
+        @apply h-[184px]
+    }
+
+
+}

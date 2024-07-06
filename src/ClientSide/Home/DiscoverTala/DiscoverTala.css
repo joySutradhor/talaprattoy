@@ -1,0 +1,17 @@
+.slick-prev:before, .slick-next:before{
+    display: none;
+}
+
+/* Customizing the dots */
+.custom-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:  #D9D9D9;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.slick-dots li.slick-active .custom-dot {
+    background: #FF0000; 
+}
