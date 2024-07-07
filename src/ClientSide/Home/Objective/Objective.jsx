@@ -4,17 +4,17 @@ import React from 'react';
 const Objective = () => {
     const slides = [
         {
-            imageUrl: "https://res.cloudinary.com/dshn2s0tc/image/upload/v1720297407/talaPrattoy/sliderImg_bl4rtt.jpg",
+            imageUrl: "https://res.cloudinary.com/dshn2s0tc/image/upload/v1720360508/talaPrattoy/overlayImg_fghaek.jpg",
             title: "Durga Puja Art 2024",
             description: "2024 introduces a never-seen-before guided walkthrough in Tala Prattoy Durga Puja Art venue where visitors may, in groups, see the artworks through a smooth walk with a guide. Here the guide is the Artist himself. This programme is chargeable and the visitors have to buy tickets for booking the slots of different times."
         },
         {
-            imageUrl: "https://res.cloudinary.com/dshn2s0tc/image/upload/v1720297407/talaPrattoy/sliderImg_bl4rtt.jpg",
+            imageUrl: "https://res.cloudinary.com/dshn2s0tc/image/upload/v1720360508/talaPrattoy/overlayImg_fghaek.jpg",
             title: "Durga Puja Art 2025",
             description: "2025 introduces a never-seen-before guided walkthrough in Tala Prattoy Durga Puja Art venue where visitors may, in groups, see the artworks through a smooth walk with a guide. Here the guide is the Artist himself. This programme is chargeable and the visitors have to buy tickets for booking the slots of different times."
         },
         {
-            imageUrl: "https://res.cloudinary.com/dshn2s0tc/image/upload/v1720297407/talaPrattoy/sliderImg_bl4rtt.jpg",
+            imageUrl: "https://res.cloudinary.com/dshn2s0tc/image/upload/v1720360508/talaPrattoy/overlayImg_fghaek.jpg",
             title: "Durga Puja Art 2026",
             description: "2026 introduces a never-seen-before guided walkthrough in Tala Prattoy Durga Puja Art venue where visitors may, in groups, see the artworks through a smooth walk with a guide. Here the guide is the Artist himself. This programme is chargeable and the visitors have to buy tickets for booking the slots of different times."
         }

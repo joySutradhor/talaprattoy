@@ -6,6 +6,8 @@ import HomeVideo from './HomeVideo/HomeVideo';
 import Award from './Award/Award';
 import Advertise from './Advertise/Advertise';
 import Gallery from './Gallery/Gallery';
+import TalaNews from './TalaNews/TalaNews';
+import Faq from './Faq/Faq';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
             <Award></Award>
             <Advertise></Advertise>
             <Gallery></Gallery>
+            <TalaNews></TalaNews>
+            <Faq></Faq>
         </div>
     );
 };

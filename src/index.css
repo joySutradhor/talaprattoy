@@ -88,4 +88,37 @@
         @apply flex gap-x-[7px]
     }
 
+    /* ============== tala news styles ========== */
+    .talaNesSliderParent {
+        @apply h-[223px] w-full mt-[25px]
+        /* ======== */
+        bg-slate-400
+    }
+
+    /* =====================faq styles here============ */
+    .faqIconParent{
+        @apply size-[22px] bg-[#303030] flex justify-center items-center rounded-full
+    }
+
+    .faqTitle{
+        @apply text-[15px] leading-[15px]
+        /* =========== */
+        font-Josefin font-bold text-white
+    }
+
+    /* ==================footer section ============== */
+   .footerContentParent{
+    @apply py-[35px] px-[32px]
+   }
+   .footerTitle{
+    @apply text-[14px] leading-[24px] pb-[10px]
+    /* ========= */
+    font-Josefin font-bold text-white
+   }
+   .footerMenu{
+    @apply text-[12px] leading-[18px]
+    /* ========= */
+    font-Josefin font-normal text-[#E6E6E6]
+   }
+
 }
