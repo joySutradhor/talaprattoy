@@ -4,6 +4,8 @@ import DiscoverTala from './DiscoverTala/DiscoverTala';
 import Objective from './Objective/Objective';
 import HomeVideo from './HomeVideo/HomeVideo';
 import Award from './Award/Award';
+import Advertise from './Advertise/Advertise';
+import Gallery from './Gallery/Gallery';
 
 const Home = () => {
     return (
@@ -12,6 +14,8 @@ const Home = () => {
             <Objective></Objective>
             <HomeVideo></HomeVideo>
             <Award></Award>
+            <Advertise></Advertise>
+            <Gallery></Gallery>
         </div>
     );
 };

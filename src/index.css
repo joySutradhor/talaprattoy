@@ -14,7 +14,7 @@
 
 
     .headingTagBold {
-        @apply text-[35px] leading-[35px] pb-[15px]
+        @apply text-[35px] leading-[35px] 
         /* ========== */
         text-[#EFEFEF] font-Josefin font-bold
     }
@@ -83,5 +83,9 @@
         @apply h-[184px]
     }
 
+    /* ============gallery styels here ======== */
+    .galleryCardParent{
+        @apply flex gap-x-[7px]
+    }
 
 }
